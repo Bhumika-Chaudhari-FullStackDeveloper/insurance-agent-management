@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <title>Select Policy</title>
+    <style>
+    
+      div{
+
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvwUBQDDWJ_vjA7XEx-LoQTmzBK8mPixbhw&s");
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 300px;
+margin-top:10px;
+height: 500px;
+width: 600px;
+color: white;
+}
+input{
+color: black;}
+    </style>
+</head>
+<body>
+<div>
+  <center> <h2>Payment for your Policy</h2>
+    <form  action="payment" method="post" >
+        <label for="paymentDate">Enter Payment Date(yy-mm-dd):</label><br>
+        <input type="text" id="paymentDate" name="pdate" required><br><br>
+        
+         <label for="pAmount">Payment Amount:</label><br>
+        <input type="text" id="pAmount" name="Pamount" required><br><br>
+       
+       
+        <label for="pmethod">Payment Method:</label><br>
+        <input type="text" id="pmethod" name="pmethod" required><br><br>
+       
+        
+        <label for="uid">User Name:</label><br>
+        <input type="text" id="uid" name="uid" required><br><br>
+
+        
+         <label for="pid">Policy Id:</label><br>
+        <input type="text" id="pid" name="pid"required><br><br>
+        
+           <label for="status" style="color: white;">Policy Status:</label><br>
+        <input type="text" id="status" name="pstatus"required><br><br>
+       
+        
+        <input style="color:black;" type="submit" value="Submit">
+    </form>
+    </center>
+    </div>
+</body>
+</html>
